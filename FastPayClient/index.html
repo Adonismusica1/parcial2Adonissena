@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fast-Pay Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Fast-Pay (Demo)</h1>
+
+    <section id="register">
+      <h2>Registrar usuario</h2>
+      <input id="regName" placeholder="Nombre" />
+      <input id="regPhone" placeholder="Teléfono (+country...)" />
+      <input id="regEmail" placeholder="Email" />
+      <input id="regPin" placeholder="PIN (4 dígitos)" />
+      <button id="btnRegister">Registrar</button>
+      <div id="regResult" class="result"></div>
+    </section>
+
+    <section id="balance">
+      <h2>Consultar usuario</h2>
+      <input id="qPhone" placeholder="Teléfono" />
+      <button id="btnQuery">Buscar</button>
+      <pre id="userResult"></pre>
+    </section>
+
+    <section id="send">
+      <h2>Enviar Pago</h2>
+      <input id="fromPhone" placeholder="Desde (tel)" />
+      <input id="fromPin" placeholder="PIN" />
+      <input id="toPhone" placeholder="Para (tel)" />
+      <input id="amount" placeholder="Monto" />
+      <input id="note" placeholder="Nota (opcional)" />
+      <button id="btnSend">Enviar</button>
+      <div id="sendResult" class="result"></div>
+    </section>
+
+    <section id="history">
+      <h2>Historial</h2>
+      <input id="histPhone" placeholder="Teléfono" />
+      <button id="btnHistory">Ver historial</button>
+      <pre id="histResult"></pre>
+    </section>
+
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

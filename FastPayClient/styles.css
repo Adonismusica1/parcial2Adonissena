@@ -1,0 +1,6 @@
+body{font-family:Segoe UI, Arial;max-width:760px;margin:24px auto;padding:12px}
+section{border:1px solid #ddd;padding:12px;margin:12px 0;border-radius:6px}
+input{display:block;padding:8px;margin:6px 0;width:100%}
+button{padding:8px 12px;margin-top:8px}
+.result{margin-top:8px;color:#0a5}
+pre{background:#f8f8f8;padding:10px;border-radius:6px}
